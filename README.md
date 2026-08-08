@@ -235,6 +235,3 @@ BS Artificial Intelligence Student
 
 GitHub: [https://github.com/SamanTarique](https://github.com/SamanTarique)
 
-## License
-
-This project is developed for educational and portfolio purposes.
