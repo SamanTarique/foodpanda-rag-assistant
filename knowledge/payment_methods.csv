@@ -1,0 +1,5 @@
+Method,Type,Availability,Notes
+Cash on Delivery,Offline,All Users,May be restricted if a user has repeated late cancellations
+Credit/Debit Card,Online,All Users,Processed via third-party payment provider
+pandapay,Wallet,Registered Users,Used for payments and default refund destination
+Vouchers/Promo Codes,Discount,All Users,Subject to expiry date and minimum order value

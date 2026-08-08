@@ -1,0 +1,11 @@
+question,expected_answer_summary
+"What is the maximum balance limit for the pandapay wallet?","Balance cap is PKR 10,000. Top-ups or refunds that would exceed this are not allowed."
+"If the vendor has already accepted the order, can the customer cancel and get a refund?","Once vendor accepts, no partial or full refund is issued on cancellation regardless of payment method."
+"Where does a Cash on Delivery (COD) refund get credited?","For orders paid by credit card, debit card, or COD, refund is issued by default to the pandapay wallet."
+"When did foodpanda launch in Pakistan?","foodpanda expanded into Pakistan in 2014 after acquiring the local player Eat Oye."
+"How long does the vendor hold a Pick-Up order for collection?","The vendor holds the order for a reasonable 20-minute window past the collection time."
+"Does foodpanda display paid third-party advertisements from companies inside the app?","No document mentions any advertising feature. There is no information about paid third-party ads in foodpanda's app in any source document."
+"What is the Delivery PIN verification used for?","A 4-digit Delivery PIN appears on the tracking page; the rider may ask for it on arrival to confirm the right recipient."
+"Does foodpanda permanently save the rider's live GPS location and full travel history for an order in the app for 30 days?","No document mentions a 30-day saved rider GPS travel history feature. Only real-time tracking from pickup to delivery is mentioned, not a retained 30-day route history."
+"For pandago (parcel delivery), what is the maximum refund limit for a lost or damaged item?","Refund capped generally up to PKR 5,000 per item, and up to PKR 10,000 for customer-to-customer pandago claims overall."
+"What is the minimum age to create a foodpanda account, and does the company mandate government ID verification (such as a CNIC scan upload) at signup?","Minimum age is 18 (or parental consent if under 18). No document mentions any mandatory CNIC scan upload requirement at signup."

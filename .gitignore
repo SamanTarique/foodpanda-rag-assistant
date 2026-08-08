@@ -1,0 +1,28 @@
+# Environment variables and secrets
+.env
+.env.*
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# FAISS generated index
+faiss_index/
+
+# Logs
+# Uncomment the next line if logs contain sensitive information
+# logs/
+
+# IDE / editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
