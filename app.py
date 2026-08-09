@@ -1,10 +1,4 @@
-"""
-app.py
-------
-Production-Grade Streamlit Frontend for Foodpanda Pakistan — RAG Knowledge Assistant.
-Features: Brand Identity (#D70F64), Custom CSS, Interactive Suggested Cards, 
-Source Transparency Accordion, and Animated Typing/Loading States.
-"""
+# here we use gemini for frontend
 
 import streamlit as st
 import config
