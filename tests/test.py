@@ -1,23 +1,11 @@
-"""
-10 test questions chalata hai, Gemini se khud RAG-answer generate karwata hai,
-phir ek DOOSRI Gemini call se us answer ko evaluate (Correct/Partial/Incorrect
-+ Hallucination Yes/No) karwata hai, aur evaluation.csv mein save karta hai.
 
-Free tier rate limit (~10 requests/minute) se bachne ke liye har question
-ke baad delay hai, aur agar phir bhi 429 (rate limit) aaye to crash nahi
-hota - thodi dair wait karke retry karta hai.
-
-Run: project root se -> python -m tests.test_pipeline
-"""
 import re
 import csv
 import sys
 import time
 from pathlib import Path
 
-# IMPORTANT: sys.path insert rag.pipeline import se PEHLE hona chahiye,
-# warna 'python tests/test_pipeline.py' (bina -m ke) chalane par
-# "ModuleNotFoundError: No module named 'rag'" aayega.
+
 ROOT_DIR = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT_DIR))
 
@@ -29,8 +17,8 @@ from rag.pipeline import generate_answer
 EVAL_CSV = ROOT_DIR / "logs" / "evaluation.csv"
 client = genai.Client(api_key=GEMINI_API_KEY)
 
-DELAY_BETWEEN_QUESTIONS = 15   # seconds - free tier ~10 RPM se bachne ke liye
-RATE_LIMIT_WAIT = 65           # 429 aane par itni dair wait karo (RPM window reset)
+DELAY_BETWEEN_QUESTIONS = 15   
+RATE_LIMIT_WAIT = 65           
 MAX_RETRIES = 3
 
 
@@ -120,13 +108,13 @@ def run_tests():
         if hallucination == "Yes":
             hallucinations += 1
 
-        # Save progress after EVERY question (agar beech mein rukna pade to data safe rahe)
+     
         with open(EVAL_CSV, "w", newline="", encoding="utf-8") as f:
             writer = csv.DictWriter(f, fieldnames=rows[0].keys())
             writer.writeheader()
             writer.writerows(rows)
 
-        if i < len(rows) - 1:  # last question ke baad wait ki zaroorat nahi
+        if i < len(rows) - 1:  
             print(f"(waiting {DELAY_BETWEEN_QUESTIONS}s before next question...)")
             time.sleep(DELAY_BETWEEN_QUESTIONS)
 
