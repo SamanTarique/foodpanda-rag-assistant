@@ -1,3 +1,4 @@
+
 # Foodpanda RAG Assistant
 
 A Retrieval-Augmented Generation (RAG) chatbot that answers Foodpanda-related questions using a controlled knowledge base of policies, FAQs, payment information, customer support information, and other public resources. The system retrieves the most relevant information from the knowledge base using FAISS and generates grounded responses with Google Gemini.
@@ -9,13 +10,15 @@ A Retrieval-Augmented Generation (RAG) chatbot that answers Foodpanda-related qu
 
 Short one-line project description here.
 
-## Demo (Hero)
+## Demo:
 
-Click the image to watch the demo video or open the live demo.
 
-[![Watch the demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://youtu.be/YOUR_VIDEO_ID)
+https://github.com/user-attachments/assets/d1960777-464f-4b45-b7b3-57dc5dd92cd8
 
-Live demo: [https://your-live-demo-url.example.com](https://your-live-demo-url.example.com)
+
+
+**Live Demo Link** : https://foodpanda-rag-assistant-m7vjgaijsittwxutdj435d.streamlit.app/
+
 
 ---
 
@@ -76,35 +79,6 @@ Foodpanda-RAG-Assistant/
     └── test.py
 ```
 
-## Demo (Full)
-
-This section is a place to show a longer demo video, GIF, or screenshots with timestamps and short descriptions.
-
-- Watch on YouTube: https://youtu.be/YOUR_VIDEO_ID
-- Live demo: https://your-live-demo-url.example.com
-
-Timestamps (example):
-
-- 0:00 — Overview
-- 0:20 — Ask a refund question
-- 0:45 — Delivery policy example
-- 1:10 — Payment & pandapay example
-
-### How to update the demo video and live link (quick)
-
-1. Upload your demo video to YouTube (unlisted or public). Copy the video ID from the YouTube URL (the part after `v=`) — e.g., for `https://youtu.be/AbCdEf123` the ID is `AbCdEf123`.
-2. Replace `YOUR_VIDEO_ID` in this README with your YouTube video ID.
-   - Thumbnail image URL format: `https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg`
-   - Watch link format: `https://youtu.be/YOUR_VIDEO_ID`
-3. Replace `https://your-live-demo-url.example.com` with your live demo URL (e.g., a Streamlit share link, Vercel, or other hosting).
-4. Commit the change to README.md (or tell me the video ID and live URL and I will update it for you).
-
-Copy-paste example (ready to replace):
-
-- Watch demo thumbnail: `[![Watch the demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://youtu.be/YOUR_VIDEO_ID)`
-- Live demo badge: `[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://your-live-demo-url.example.com)`
-
-Note: GitHub strips iframes, so use a clickable thumbnail image or a short GIF rather than embedding the video player.
 
 ## RAG Pipeline
 
