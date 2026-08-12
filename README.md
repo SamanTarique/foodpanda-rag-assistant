@@ -3,7 +3,6 @@
 
 A Retrieval-Augmented Generation (RAG) chatbot that answers Foodpanda-related questions using a controlled knowledge base of policies, FAQs, payment information, customer support information, and other public resources. The system retrieves the most relevant information from the knowledge base using FAISS and generates grounded responses with Google Gemini.
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](#)
 [![Python](https://img.shields.io/badge/language-Python-lightgrey)](#)
 [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://your-live-demo-url.example.com)
 [![Watch Demo](https://img.shields.io/badge/Watch-Demo-red)](https://youtu.be/YOUR_VIDEO_ID)
